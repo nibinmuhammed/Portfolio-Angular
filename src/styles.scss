@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+:root {
+    --background-color: #000000;  // Dark background color
+    --text-color: #fff;        // Light text color
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Mukta, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
