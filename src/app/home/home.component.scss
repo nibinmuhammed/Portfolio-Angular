@@ -1,10 +1,44 @@
- div {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: flex-start;
+.home {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 
-     .name {
-        font-size: 40px;
-     }
- }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        max-width: 1200px;
+        width: 70%;
+        margin: 0 auto;
+        margin-left: 250px;
+
+        .name {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .designation {
+            font-size: 3rem;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+    }
+
+    .image {
+        width: 30%;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+}
